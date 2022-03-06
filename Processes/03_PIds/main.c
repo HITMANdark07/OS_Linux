@@ -6,6 +6,6 @@
 
 int main(int argc, char* argv[]){
     int id = fork();
-    printf("%d\n", getpid());
+    printf("Curretn ID %d, Parent ID: %d\n", getpid(), getppid());
     return 0;
 }
